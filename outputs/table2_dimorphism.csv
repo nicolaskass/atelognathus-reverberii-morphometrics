@@ -1,0 +1,4 @@
+Variable,n_males,Mean_males,n_females,Mean_females,U,p_value,Cohen_d,Significant
+LHU,75,28.76,47,28.64,1917.0,0.4178,0.041,False
+Peso,75,2.49,47,2.43,1910.0,0.4379,0.081,False
+AB,75,10.78,47,10.72,1817.0,0.7763,0.066,False
