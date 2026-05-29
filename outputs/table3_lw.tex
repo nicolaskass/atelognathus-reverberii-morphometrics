@@ -1,0 +1,27 @@
+\begin{table}[H]
+\centering
+\caption{Length--weight regression parameters for \textit{Atelognathus
+reverberii} by sex/age class (Laguna Azul, 2019--2020). Model:
+$\log W = \log a + b \cdot \log(\mathrm{SUL})$, fitted by OLS.
+$a$ is a dimensioned coefficient with units g$\cdot$mm$^{-b}$ (varying
+across groups as $b$ differs); $b$ is dimensionless.
+$p_2$: $p$-value for $H_0\colon b = 2$ (two-dimensional isometry);
+$p_3$: $p$-value for $H_0\colon b = 3$ (three-dimensional isometry).}
+\label{tab:lw}
+\begin{threeparttable}
+\begin{tabular}{lrrclll}
+\toprule
+Group & $n$ & $a$ & $b$ & SE$(b)$ & $p_2$ & $p_3$\\
+\midrule
+All      & 274 & 0.00319 & 1.972 & 0.093 & 0.761 & $<$0.001\\
+Male     &  75 & 0.00865 & 1.680 & 0.225 & 0.158 & $<$0.001\\
+Female   &  47 & 0.00655 & 1.755 & 0.256 & 0.344 & $<$0.001\\
+Juvenile &  25 & 0.00050 & 2.530 & 0.198 & \textbf{0.014}\tnote{*} & \textbf{0.026}\tnote{*}\\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}[flushleft]\footnotesize
+  \item[*] Significantly different from the stated isometric expectation
+  at $\alpha = 0.05$.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
